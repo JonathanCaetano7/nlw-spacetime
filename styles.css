@@ -115,10 +115,11 @@ aside {
 }
 
 aside * {
-  animation: entering 0.8s ease-in-out;
+  animation: entering 0.7s ease-in-out;
 }
 
-aside img:nth-child(2) { /*moldura da foto jonathan*/
+aside img:nth-child(2) {
+  /*moldura da foto jonathan*/
   width: 160px;
   height: auto;
   border-radius: 40%;
@@ -140,7 +141,7 @@ aside span {
 }
 
 @media (max-width: 768px) {
-  /*quandouma tela for menor que 768px vai aplicar as configurações determinadas*/
+  /*quando uma tela for menor que 768px vai aplicar as configurações determinadas*/
   :root {
     font-size: 14px;
   }
@@ -151,14 +152,14 @@ aside span {
       "profile"
       "timeline";
   }
-}
 
-aside {
-  border-right: none;
-  padding: 32px 12px;
-}
+  aside {
+    border-right: none;
+    padding: 32px 12px;
+  }
 
-nav {
-  overflow-y: visible;
-  padding: 22px;
+  nav {
+    overflow-y: visible;
+    padding: 22px;
+  }
 }
